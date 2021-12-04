@@ -1,0 +1,22 @@
+#main{
+    flex-wrap: wrap;
+    display: flex;
+}
+.list{
+   margin: 10px 0px 0px 10px;
+   border: 2px solid rgb(139, 136, 136);
+   border-radius: 5px;
+   width: 200px;
+}
+.list2{
+    height: 200px;
+    width: 200px;
+    
+}
+body{
+    background-color: rgb(247, 245, 245);
+}
+#order{
+    text-decoration: none;
+    color: rgb(22, 81, 207);
+}

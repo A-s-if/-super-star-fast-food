@@ -1,0 +1,27 @@
+#main{
+    background-color: rgb(48, 47, 47);
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1350px;
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu:hover{
+    background-color: whitesmoke;
+    color:rgb(36, 35, 35) ;
+    font-weight: bold;
+}
+#main2{
+    background-image: url("https://thumbs.dreamstime.com/b/fast-food-dish-yellow-background-fast-food-set-fried-chicken-meat-burger-french-fries-take-away-fast-food-fast-food-dish-102920425.jpg");
+    width: 1350px;
+    height: 100vh;
+    top: 20px;
+    display: flex;
+}
+#marquee{
+    color: rgb(39, 38, 38);
+}

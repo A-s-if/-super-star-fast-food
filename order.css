@@ -1,0 +1,31 @@
+h1{
+    color:rgb(51, 96, 223) ;
+}
+h2{
+    color: rgb(29, 29, 29);
+}
+.form{
+    height: 20px;
+    width: 300px;
+    border: 3px solid rgb(80, 79, 79);
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+.opt{
+    border:3px solid rgb(80, 79, 79) ;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 310px;
+}
+#opt2{
+    border: 3px solid rgb(80, 79, 79);
+    border-radius: 5px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(29, 29, 29);
+    margin: 0px 0px 0px 20px;
+}
