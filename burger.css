@@ -1,12 +1,22 @@
+h1{
+    text-align: center;
+}
+
 #main{
     flex-wrap: wrap;
     display: flex;
+    margin: 0px 0px 0px 20px;
 }
 .list{
    margin: 10px 0px 0px 10px;
    border: 2px solid rgb(139, 136, 136);
    border-radius: 5px;
    width: 200px;
+   text-align: center;
+   cursor: pointer;
+}
+.list:hover{
+    border: 2px solid rgb(58, 58, 58);
 }
 .list2{
     height: 200px;
@@ -16,7 +26,35 @@
 body{
     background-color: rgb(247, 245, 245);
 }
-#order{
-    text-decoration: none;
-    color: rgb(22, 81, 207);
+
+h1{
+    margin: 0px 0px 0px 20px;
 }
+
+.first{
+    text-align: center;
+    font-size: 50px;
+}
+
+.ankor{
+    color: rgb(9, 36, 185);
+    text-decoration: none;
+}
+
+.ankor:hover{
+    font-weight: bold;
+}
+
+.block{
+    height: 400px;
+    width: 500px;
+    border: 2px solid rgb(139, 136, 136);
+    border-radius: 5px;
+    }
+
+.order{
+    color: rgb(22, 81, 207);
+    cursor: pointer;
+    
+}
+

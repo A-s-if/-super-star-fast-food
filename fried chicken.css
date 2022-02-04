@@ -1,6 +1,7 @@
 #main{
     flex-wrap: wrap;
     display: flex;
+    margin: 0px 0px 0px 20px;
 }
 .list{
    margin: 10px 0px 0px 10px;
@@ -19,4 +20,7 @@ body{
 #order{
     text-decoration: none;
     color: rgb(22, 81, 207);
+}
+h1{
+    margin: 0px 0px 0px 20px;
 }

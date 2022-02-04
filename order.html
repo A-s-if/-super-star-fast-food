@@ -7,6 +7,7 @@
     <title>Super Star fast food</title>
     <link rel="stylesheet" href="order.css">
 </head>
+<div id="main">
 <body>
     <h1>For the order please fill the information</h1>
    <h2> Name:</h2>
@@ -15,54 +16,13 @@
 
     
 
-    <h2> Item name:</h2>
-    <select name="" id="" class="opt" >
-        <option value=""></option>
-    <option value="">Crispy fried chiken burger</option>
-    <option value="">Luger Burger</option>
-    <option value="">The Original Burger</option>
-    <option value="">Le Pigeon Burger</option>
-    <option value="">Whiskey King Burger</option>
-    <option value="">The Company Burger</option>
-    <option value="">Chargrilled Burger with Roquefort Cheese</option>
-    <option value="">Dyer’s Deep-Fried Burger</option>
-    <option value="">The Lola Burger</option>
-    <option value="">Cheeseburger</option>
-    <option value="">Raw Steak Tartare Burger</option>
-    <option value="">Buckhorn Burger</option>
-    <option value="">Double Patty Cheeseburger</option>
-    <option value="">Double Animal Style Burger</option>
-    <option value="">The Original Burger</option>
-    <option value="">Cheeseburger2</option>
-    <option value="">Signature Burger</option>
-    <option value="">Peri Grill Burger</option>
-    <option value="">Black Bear Burger</option>
-    <option value="">Street Burger</option>
-</select>
+
+    
 <h2>Number of pieces:</h2>
-<select name="" id="opt2">
-    <option value=""></option>
-    <option value="">1pcs.</option>
-    <option value="">2pcs.</option>
-    <option value="">3pcs.</option>
-    <option value="">4pcs.</option>
-    <option value="">5pcs.</option>
-    <option value="">6pcs.</option>
-    <option value="">7pcs.</option>
-    <option value="">8pcs.</option>
-    <option value="">9pcs.</option>
-    <option value="">10pcs.</option>
-    <option value="">11pcs.</option>
-    <option value="">12pcs.</option>
-    <option value="">13pcs.</option>
-    <option value="">14pcs.</option>
-    <option value="">15pcs.</option>
-    <option value="">16pcs.</option>
-    <option value="">17pcs.</option>
-    <option value="">18pcs.</option>
-    <option value="">19pcs.</option>
-    <option value="">20pcs.</option>
-</select>
+<input type="number" name="" value="0" id="pice"><span class="pm" id="plus" onclick="burgerTk('demo',true)">+</span> <span class="pm" id="minus" onclick="burgerTk('demo',false)">-</span>  
+<h2 onclick="burgerTk()">See total price</h2>
+<h2>Total tk. <br>
+  <span id="total">00/=</span> </h2>
 <h2>Phone number:</h2>
 <input type="number" name="" id="" placeholder="Enter you'r phone/mob. number" class="form">
 <h2>Address:</h2>
@@ -75,5 +35,12 @@
 <a href="nagad.html">
     Nagad
 </a>
+<br>
+<br>
+
+<a href="payment.html" id="submit">Submit</a>
+</div>
+
+<script src="burger.js"></script>
 </body>
 </html>
